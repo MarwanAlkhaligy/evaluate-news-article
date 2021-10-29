@@ -1,0 +1,62 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+  
+button {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+    background: linear-gradient(-45deg, #2596be ,#0f3c4c);
+    height: 97.9vh;
+    background-size: 400%, 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    color: white
+}
+@keyframes change{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.holder {
+    text-align: center;
+    font-size: 26px;
+    color:#166088;
+    
+    
+}
+#error-message {
+    color: #D8000C;
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    height: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(250,250,250,.3);
+}
